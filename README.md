@@ -61,6 +61,16 @@ Default: `.item`
 Hide last row if there are not enough items to fill it completely.  
 Default: `false`
 
+### forceSymmetricLayout
+
+**Always** keep symmetry when drawing layout.  
+Default: `true`
+
+### maxDiamondsPerRow
+
+Limit max width to prevent 1 row layouts on wide screens.  
+Default: `6`
+
 ### autoRedraw
 
 Auto redraw diamonds when it detects resizing.  
